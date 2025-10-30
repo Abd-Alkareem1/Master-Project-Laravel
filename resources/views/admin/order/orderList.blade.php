@@ -134,7 +134,7 @@
                                             <span class="">{{ $order->user->name }}</span>
                                         </td>
                                         <td class="col-2 ">{{ $order->created_at->format('m/d/Y') }}</td>
-                                        <td class="col-2">{{ $order->total_price }} Kyats</td>
+                                        <td class="col-2">{{ $order->total_price }} JOD</td>
                                         <td class="col-2">
                                             <a href="{{ route('orderList', $order->id)}}">
                                                 <button type="button" class="btn btn-dark position-relative">
@@ -234,7 +234,7 @@ $('#filterStatus').change(function() {
                         <span class="">${response[i].name}</span>
                     </td>
                     <td class="col-2">${formattedDate}</td>
-                    <td class="col-2">${response[i].total_price} Kyats</td>
+                    <td class="col-2">${response[i].total_price} JOD</td>
                     <td class="col-2">
                         <a href="{{ route('orderList', $order->id)}}">
                             <button type="button" class="btn btn-dark position-relative">

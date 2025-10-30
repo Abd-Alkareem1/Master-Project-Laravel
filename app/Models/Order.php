@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use App\Models\User;
-use App\Models\Order;
 use App\Models\Product;
 use App\Models\OrderList;
 use Illuminate\Database\Eloquent\Model;

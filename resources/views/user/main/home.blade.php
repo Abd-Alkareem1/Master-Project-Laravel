@@ -115,7 +115,7 @@
                                 </div>
                             @endforeach
                         @else
-                            <h1 class="text-center bg-warning fs-5 text-white p-4 col-6 offset-3 ">There is no Pizzas in
+                            <h1 class="text-center bg-warning fs-5 text-white p-4 col-6 offset-3 ">There is no food in
                                 this category</h1>
                         @endif
                     </span>

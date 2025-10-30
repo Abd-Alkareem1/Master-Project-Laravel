@@ -58,7 +58,7 @@
                                 <div class="col-5 offset-1">
                                     <h4 class="text-danger  "><i class="fa-solid fa-pizza-slice text-danger mr-4"></i> {{$product->name}}
                                     </h4>
-                                    <h4 class=" my-4 "><i class="fa-solid fa-money-bill  mr-4"></i> {{$product->price}} Kyats</h4>
+                                    <h4 class=" my-4 "><i class="fa-solid fa-money-bill  mr-4"></i> {{$product->price}} JOD</h4>
                                     <h4 class=" my-4 "><i class="fa-solid fa-clock mr-4"></i> {{$product->waiting_time}} mins</h4>
                                     <h4 class=" my-4 "><i class="fa-solid fa-eye mr-4"></i> {{$product->view_count}}</h4>
                                     <h4 class=" my-4 "><i class="fa-solid fa-database mr-4"></i> {{$product->category->name}}</h4>

@@ -25,7 +25,7 @@
                     <div class="d-flex mb-3">
                         <small class="pt-1 fs-4">{{ $pizza->view_count }} <i class="fa-solid fa-eye fs-4"></i></small>
                     </div>
-                    <h3 class="font-weight-semi-bold mb-4">{{ $pizza->price }} Kyats</h3>
+                    <h3 class="font-weight-semi-bold mb-4">{{ $pizza->price }} JOD</h3>
                     <p class="mb-4">{{ $pizza->description }}</p>
                     <div class="d-flex align-items-center mb-4 pt-2">
                         <div class="input-group quantity mr-3" style="width: 130px;">
@@ -94,7 +94,7 @@
                     <div class="text-center py-4">
                         <a class="h6 text-decoration-none text-truncate" href="">{{$pL->name}}</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>{{$pL->price}}Kyats</h5>
+                            <h5>{{$pL->price}}JOD</h5>
 
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
